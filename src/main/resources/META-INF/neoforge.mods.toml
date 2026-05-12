@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+mixinConfigs = ["tfcmountains.mixins.json"]
+
+[[mods]]
+    modId = "tfcmountains"
+    version = "1.0.1"
+    displayName = "TFC Mantle Mountains"
+    description = "Makes TerraFirmaCraft mountains larger."
+    logoFile = "tfcmountains.png"
+
+[[dependencies.tfcmountains]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.tfcmountains]]
+    modId = "tfc"
+    type = "required"
+    versionRange = "[4.0,)"
+    ordering = "AFTER"
+    side = "BOTH"

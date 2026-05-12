@@ -1,0 +1,34 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = "NeoForged"
+            url = "https://maven.neoforged.net/releases"
+        }
+        mavenCentral()
+    }
+}
+
+plugins {
+    id "org.gradle.toolchains.foojay-resolver-convention" version "0.8.0"
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        maven {
+            name = "NeoForged"
+            url = "https://maven.neoforged.net/releases"
+        }
+        maven {
+            name = "Minecraft"
+            url = "https://libraries.minecraft.net"
+        }
+        maven {
+            name = "TerraFirmaCraft"
+            url = "https://maven.terrafirmacraft.com/releases"
+        }
+    }
+}
+
+rootProject.name = "tfcmountains"

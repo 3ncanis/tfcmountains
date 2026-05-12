@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.encanis.tfcmountains.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BiomeNoiseMountainsMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
