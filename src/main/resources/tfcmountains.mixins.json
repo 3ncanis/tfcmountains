@@ -4,7 +4,13 @@
   "package": "com.encanis.tfcmountains.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "BiomeNoiseMountainsMixin"
+    "BiomeNoiseRidgeMountainsMixin",
+    "BiomeExtensionVolcanoMixin",
+    "SurfaceBuilderContextSnowCapMixin",
+    "ChunkBiomeSamplerMixin",
+    "AnnotateBiomeAltitudeMixin",
+    "RegionPointDiscreteBiomeAltitudeMixin",
+    "AddMountainsAndBarrierIslandsMixin"
   ],
   "client": [],
   "injectors": {

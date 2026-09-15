@@ -1,12 +1,13 @@
 {
+  "__comment__": "This file was automatically created by mcresources",
   "type": "tfc:cluster_vein",
   "config": {
-    "rarity": 15,
+    "rarity": 7,
     "density": 0.2,
     "min_y": 90,
-    "max_y": 264,
+    "max_y": 440,
     "size": 10,
-    "random_name": "surface_native_silver",
+    "random_name": "montane_native_silver",
     "blocks": [
       {
         "replace": [
